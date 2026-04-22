@@ -1,0 +1,18 @@
+name: Ir-a-escoula
+
+on: Me-arrumar
+  push: commit
+    branches: [ main ]
+
+jobs:
+  Ir_pra_escola:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 1. me arrumar 
+        run: echo "mim arrumando"
+      - name: 2. sair de casa
+        run: echo "saindo de casa"
+      - name: 3. ir a escola
+        run: echo "indo a escola"
+      - name: 4. entrar na escola
+        run: echo "entrando na escola"
